@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(199, 42, 42);
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+li {
+    font-family: "Roboto Mono", Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li a:hover {
+    transition: 0.5s;
+    color: rgb(110, 108, 108);
+    font-size: 30px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    margin-top: 125px;
+    text-decoration: underline;
+}
+
+.text {
+    color: white;
+    background-color: black;
+    font-family: "Roboto Mono", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align:justify;
+    padding: 8px 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 5px;
+    line-height: 1.8;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+
+}
+
+.actors {
+
+}
+
+.content {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width: 450px) {
+ 
+    nav {
+        position: absolute;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: left;
+    }
+    
+    li {
+        font-size: 15px;
+    }
+    
+    .heading {
+        font-size: 20px;
+        margin-top: 170px;
+        margin-left: -40px;
+    }
+    
+    .text {
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    
+    img {
+        margin-left: 0px;
+        width: 350px;
+    }
+    
+    .actors-img {
+        margin-left: 65px;
+    }
+    
+    .actors-text {
+        margin-left: 70px;
+        margin-right: 60px;
+    }
+    
+    }
+
+    @media screen and (min-width: 1024px) {
+ 
+
+        img {
+            margin-left: 320px;
+            width: 350px;
+        }
+        
+        .actors-img {
+            margin-left: 360px;
+        }
+        
+        .actors-text {
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        
+        }
